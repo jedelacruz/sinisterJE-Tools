@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Je</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="https://bonhomme.lol/logo.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <div class="button_container" id="toggle"><span class="top"></span></span></span><span class="bottom"></span></div>
+        <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+                <ul>
+                    <li><a href="/home/index.html">Home</a></li>
+                    <li><a href="/about/index.html">About</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="https://bonhomme.lol/logo.svg">
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="tool-exp" id="tools">
+                <p class="toolExp-head">Tool Experience</p>
+                
+                <div class="toolExpContainer">  
+                    <div class="expContainerBox1">
+                        C
+                    </div>
+                    <div class="expContainerBox2">
+                        Grade 8
+                        <div class="expContainerBox2-txt">
+                            During eight grade, when I was a student at SPRCNHS, I learned the C language. It was our teacher who introduced us to this language.
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toolExpContainer">  
+                    <div class="expContainerBox1">
+                        HTML & CSS
+                    </div>
+                    <div class="expContainerBox2">
+                        Grade 9
+                        <div class="expContainerBox2-txt">
+                            During ninth grade, due to COVID-19 pandemic, I felt bored and taught myself HTML, CSS, and JS by using programming websites.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toolExpContainer">  
+                    <div class="expContainerBox1">
+                        Python
+                    </div>
+                    <div class="expContainerBox2">
+                        Grade 10
+                        <div class="expContainerBox2-txt">
+                            During tenth grade, my school did not offer any programming classes. However, my interest in coding persisted, so I turned to YouTube to learn Python on my own.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="toolExpContainer">  
+                    <div class="expContainerBox1">
+                        Java
+                    </div>
+                    <div class="expContainerBox2">
+                        Grade 11
+                        <div class="expContainerBox2-txt">
+                            I transferred to a different school, It's easy learning Java because I have past experiences on other language.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toolExpContainer">  
+                    <div class="expContainerBox1">
+                        C++
+                    </div>
+                    <div class="expContainerBox2">
+                        Grade 11
+                        <div class="expContainerBox2-txt">
+                            My new school is called Lyceum Of Alabang. It's fun here because I'm learning many new languages fast, C++ is currently my favorite because it's like Java with shorter steps.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toolExpContainer">  
+                    <div class="expContainerBox1">
+                        MySQL
+                    </div>
+                    <div class="expContainerBox2">
+                        Grade 11
+                        <div class="expContainerBox2-txt">
+                            Im learning MySql so my programs can have a database. It's kinda hard and challenging to me because this is new to me.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toolExpContainer" style="padding-bottom: 15vh;">  
+                    <div class="expContainerBox1">
+                        Javascript
+                    </div>
+                    <div class="expContainerBox2">
+                        Grade 11
+                        <div class="expContainerBox2-txt">
+                            I want to enhance my Web Development skills so I started learning Javascript in youtube. It's fun but kinda hard to use.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+        <script>
+            $('#toggle').click(function() {
+            $(this).toggleClass('active');
+            $('#overlay').toggleClass('open');
+        });
+        </script>
+    </body>
+</html>
